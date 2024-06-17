@@ -22,7 +22,9 @@
         </ul>
       </div>
       <span>• one bingo card per viewer per stream •</span>
-      <p class="twitch">twitch.tv/suavespacenoid</p>
+      <p class="twitch">
+        <a href="https://www.twitch.tv/suavespacenoid">twitch.tv/suavespacenoid</a>
+      </p>
     </div>
   </template>
   
@@ -154,6 +156,13 @@
     padding: 10px 40px;
     margin: auto;
     font-weight: bold;
+  }
+  .twitch a {
+    text-decoration: none;
+    color: black;
+  }
+  .twitch a:hover {
+    text-decoration: underline;
   }
 </style>
   
